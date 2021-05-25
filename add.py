@@ -9,7 +9,7 @@ while True:
     file.write(str(final))
     file.close()
     print("Added %s cough drop(s) to your total." % (question))
-    follow = input("Would you like to view your current amount?(Please say (Y)es or (N)o: ").lower()
+    follow = input("Would you like to view your current amount? (Y)es or (N)o: ").lower()
     if follow == ("yes") or follow == ("y"):
         exec(open('read.py').read())
     elif follow == ("no") or follow == ("n"):

@@ -1,11 +1,11 @@
 while True:
 
-    options = input("What would you like to to do?(Please choose Add or Amount) ").lower()
+    options = input("What would you like to to do? (Add, Amount or Clear) ").lower()
     if options == ("add"):
         exec(open('add.py').read())
     elif options == ("amount"):
         exec(open('read.py').read())
-    elif options == ("clear total"):
+    elif options == ("clear"):
         zero = 0
         file = open("cough_drops.txt", "r+")
         file.seek(0)
