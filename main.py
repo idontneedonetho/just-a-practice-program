@@ -1,4 +1,4 @@
-#This is a super simple program that I made in like, 5 days
+#This is a super simple program that I made
 while True:
 
     #Get's user input
